@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hierarchy View Redirect</fullName>
+    <description>Salesforce Lightning Web Component to auto-redirect to an account or contact hierarchy view
+https://github.com/thisisjohnny/sf-hierarchy-view.git</description>
+    <types>
+        <members>hierarchyOverride</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>47.0</version>
+</Package>
