@@ -2,7 +2,7 @@
 One of the most useful capabilities within Salesforce is the hierarchy view available for Account and Contact standard objects. It allows you to view the reporting structure of groups or individuals your organization interacts with on a regular basis, as well as key highlights of information. It is so functional, in fact, that it can be useful having it as the default behavior when you click on the Account or Contact tabs. While that is not possible out of the box, this [LWC](https://developer.salesforce.com/docs/component-library/documentation/lwc) will automatically redirect your browser to the hierarchy page of your choice.
 
 ## What To Do
-![Screenshot of Lightning App Utility in Salesforce](/images/lightning_app.png)
+![Screenshot of Lightning App Builder in Salesforce](/images/lightning-page-builder.png)
 
 1. Install this package in your org using the included Deploy to Salesforce button below
 2. Create a new Lightning App Page using the Lightning App Builder (Setup > User Interface > Lightning App Builder). I recommend using the One Region page template
@@ -11,6 +11,9 @@ One of the most useful capabilities within Salesforce is the hierarchy view avai
 5. Save and activate your Lightning App Page
 6. Create a new custom Tab (Setup > User Interface > Tabs) under the _Lightning Page Tabs_ section towards the bottom of the page
 7. Add your new custom tab to the App of your choosing
+
+## Important Note
+The URL of your hierarchy is an extremely long string, and is unique for the starting node (account or contact) of the hierarchy. Good data makes this component great. Ensuring all accounts roll up to a main record will provide a better overall user experience.
 
 ## Deploy to Your Org
 **This package is provided without warranty.**
@@ -25,4 +28,3 @@ To deploy this package to your Salesforce environment, click the button below an
 
 ----
 _Made with_ ❤️&☕️ _in Reston_
-
